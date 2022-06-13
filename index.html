@@ -4,10 +4,105 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Dmytro Radchuk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Poppins:ital,wght@0,300;0,400;1,600&family=Questrial&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  <header class="header" id="home">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="header__logo">Dmytro Radchuk</a>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#home" class="menu__link">Home</a></li>
+            <li class="menu__item"><a href="#about" class="menu__link">About</a></li>
+            <li class="menu__item"><a href="#skills" class="menu__link">My skills</a></li>
+            <li class="menu__item"><a href="#portfolio" class="menu__link">Portfolio</a></li>
+            <li class="menu__item"><a href="#footer" class="menu__link">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <div class="hero__info">
+          <div class="hero__sup-title">Welcome</div>
+          <h1 class="hero__title">I'm Dmytro Radchuk</h1>
+          <div class="hero__sub-text">rolling scopes student</div>
+          <a href="#" class="hero__button button">Download CV</a>
+        </div>
+        <div class="hero__photo-box"></div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about_decor-text">Creat new thing is very cool</div>
+        <div class="about__photo-wrapper">
+          <div class="about__photo"></div>
+        </div>
+        <div class="about__info">
+          <h2 class="about__title">about</h2>
+          <div class="about__descr">I don't have any programming experience, but I am ready to learn a lot. Becouse me dream is to become a Junior Frontend Developer</div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="skills__title title">My skills</h2>
+        <div class="skills__wrapper">
+          <div class="skills_card"><span class="skills__name">HTML</span></div>
+          <div class="skills_card"><span class="skills__name">CSS</span></div>
+          <div class="skills_card"><span class="skills__name">JS</span></div>
+          <div class="skills_card"><span class="skills__name">UI/UX</span></div>
+        </div>
+        <h3 class="skills__subtitle title">language</h3>
+        <div class="skills__language-box">
+          <div class="skills__language-item">Ukrainian(native)</div>
+          <div class="skills__language-item">Russian(native)</div>
+          <div class="skills__language-item">English(A2)</div>
+          <div class="skills__language-item">Polish(B1)</div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="portfolio__title title">My Portfolio</h2>
+        <div class="portfolio__wrapper">
+          <div class="portfolio__card"><a href="#" class="porfolio__link">Soon there will be my works</a></div>
+          <div class="portfolio__card"><a href="#" class="porfolio__link">Soon there will be my works</a></div>
+          <div class="portfolio__card"><a href="#" class="porfolio__link">Soon there will be my works</a></div>
+          <div class="portfolio__card"><a href="#" class="porfolio__link">Soon there will be my works</a></div>
+        </div>
+        <div class="portfolio__title title">Code exemple</div>
+        <pre class="porfolio__code">
+          <code>
+            function becomeProgramer(){
+              if(hardwork == true){
+                return goodResult
+              }else{
+                return "What are yuo doing?"
+              }
+            }
+          </code>
+      </pre>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="container">
+      <a href="https://rs.school/js/" class="footer__icon-wrapper rolling">
+        <img src="images/rs.png" alt="rolling scopes" class="footer__icon">
+      </a>
+      <p class="footer__copiwrating">Made on june 2022</p>
+      <a href="https://github.com/DmytroRadchukUA" class="footer__icon-wrapper github">
+        <img src="images/gh.png" alt="github" class="footer__icon">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
