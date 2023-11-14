@@ -12,12 +12,11 @@
 ## Education
 
 - Self-taught Programmer (YouTube)
-- Udemy curses
+- Udemy courses
 
 ## Personal Projects
 
-- [Project Name] - [Brief description and your role]
-- [Project Name] - [Brief description and your role]
+- Will added in future
 
 ## Languages
 
